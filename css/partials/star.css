@@ -1,0 +1,13 @@
+.gf-component-star-separartor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gf-component-star-separartor::after,
+.gf-component-star-separartor::before{
+    content:'';
+    width: 12%;
+    height: 3px;
+    background-color: currentColor;
+    display: block;
+}
