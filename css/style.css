@@ -24,3 +24,23 @@ main section:nth-child(5){
 .square-6{
     background-color: #ccb2a3;
 }
+
+
+
+.gf-component-star-separartor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gf-component-star-separartor::after,
+.gf-component-star-separartor::before{
+    content:'';
+    width: 12%;
+    height: 3px;
+    background-color: white;
+    display: block;
+}
+
+
+
+
